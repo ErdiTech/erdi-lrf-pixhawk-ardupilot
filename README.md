@@ -44,7 +44,7 @@ Cross TX and RX, share ground, and check the module's UART logic level against t
 - `RNGFNDx_TYPE = 49` (ERDI-VB-Serial): LRF10VB, LRF22VB, LRF50VB, distance in millimetres
 - `RNGFNDx_TYPE = 50` (ERDI-H-Serial): LRF50H, LRF100H, LRF200H, LRF300H, LRF600H, distance in centimetres
 
-The PR notes SITL autotest results and a factory bench run of an LRF22VB and an LRF50H through a USB-TTL adapter; flight-controller logs are still to come. Bench evidence: <https://github.com/ErdiTech/erdi-lrf-drivers/tree/main/docs/evidence/ardupilot-bench-20261105>. Until the PR is merged and appears in a firmware release, use Option 1 or a companion computer ([erdi-lrf-raspberry-pi-python](https://github.com/Tommyapi/erdi-lrf-raspberry-pi-python) sends MAVLink `DISTANCE_SENSOR`).
+The PR notes SITL autotest results and a factory bench run of an LRF22VB and an LRF50H through a USB-TTL adapter; flight-controller logs are still to come. Bench evidence: <https://github.com/ErdiTech/erdi-lrf-drivers/tree/main/docs/evidence/ardupilot-bench-20261105>. Until the PR is merged and appears in a firmware release, use Option 1 or a companion computer ([erdi-lrf-raspberry-pi-python](https://github.com/ErdiTech/erdi-lrf-raspberry-pi-python) sends MAVLink `DISTANCE_SENSOR`).
 
 ## Models and units
 
@@ -63,8 +63,8 @@ The fixtures check frame parsing rules against manual examples; they do not repl
 ## Related projects
 
 - [ErdiTech/erdi-lrf-drivers](https://github.com/ErdiTech/erdi-lrf-drivers): protocol library and flight-controller integration notes
-- [drone-altimeter-laser-rangefinder-guide](https://github.com/Tommyapi/drone-altimeter-laser-rangefinder-guide): selection guide for drone laser altimeters
-- [laser-rangefinder-module-database](https://github.com/Tommyapi/laser-rangefinder-module-database): dataset of laser rangefinder modules
+- [drone-altimeter-laser-rangefinder-guide](https://github.com/ErdiTech/drone-altimeter-laser-rangefinder-guide): selection guide for drone laser altimeters
+- [laser-rangefinder-module-database](https://github.com/ErdiTech/laser-rangefinder-module-database): dataset of laser rangefinder modules
 
 ## Support / 打赏
 
