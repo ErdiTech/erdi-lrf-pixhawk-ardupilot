@@ -1,0 +1,14 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tests/protocol_fixtures.py
+  lua-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y lua5.3
+      - run: luac5.3 -p scripts/erdi_lrf.lua

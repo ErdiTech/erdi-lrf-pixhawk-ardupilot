@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="t d">
+  <title id="t">ERDI laser rangefinder to Pixhawk TELEM port wiring</title>
+  <desc id="d">Module TX goes to the flight controller serial RX, module RX to serial TX, grounds are shared, module power comes from its own supply.</desc>
+  <style>
+    text { font: 14px system-ui, sans-serif; fill: #14181f; }
+    .box { fill: #f3f6fb; stroke: #14181f; stroke-width: 2; }
+    .sig { stroke: #0b5fff; stroke-width: 3; fill: none; }
+    .gnd { stroke: #555; stroke-width: 3; fill: none; }
+    .pwr { stroke: #d9480f; stroke-width: 3; stroke-dasharray: 6 4; fill: none; }
+    .small { font-size: 12px; fill: #444; }
+    @media (prefers-color-scheme: dark) { text { fill: #e8ecf2; } .box { fill: #1b2129; stroke: #e8ecf2; } .small { fill: #aab; } }
+  </style>
+  <rect class="box" x="30" y="40" width="220" height="190" rx="8"/>
+  <text x="50" y="68" font-weight="700">ERDI laser rangefinder</text>
+  <text class="small" x="50" y="88">LRF22VB / LRF50VB / H series / A series</text>
+  <text x="50" y="130">TX</text><text x="50" y="160">RX</text><text x="50" y="190">GND</text><text x="50" y="215">VCC</text>
+  <rect class="box" x="510" y="40" width="220" height="190" rx="8"/>
+  <text x="530" y="68" font-weight="700">Pixhawk / flight controller</text>
+  <text class="small" x="530" y="88">TELEM2 = SERIAL2 (example)</text>
+  <text x="640" y="130">RX</text><text x="640" y="160">TX</text><text x="640" y="190">GND</text><text x="530" y="215">own 5 V / BEC</text>
+  <path class="sig" d="M250 125 L510 125"/><path class="sig" d="M250 155 L510 155"/>
+  <text class="small" x="320" y="118">module TX to FC RX</text><text class="small" x="320" y="148">module RX to FC TX</text>
+  <text class="small" x="330" y="173" fill="#444">(crossed)</text>
+  <path class="gnd" d="M250 185 L510 185"/>
+  <path class="pwr" d="M250 210 L510 210"/>
+  <text class="small" x="262" y="250">VCC per model manual from its own regulator; check UART logic level vs 3.3 V first</text>
+</svg>
