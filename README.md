@@ -82,7 +82,6 @@ If this project saved you time, you can buy the author a coffee in crypto. Thank
 Please send only the listed asset on the listed network — other tokens or networks may be lost.
 请按表中对应的网络转对应的币种，转错币种或网络可能无法找回。
 
-Built by tommyapi.com
 
 ## License
 
