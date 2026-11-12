@@ -1,0 +1,19 @@
+0.7	6	EKF3 IMU0 initialised
+0.7	6	EKF3 IMU1 initialised
+0.7	6	AHRS: EKF3 active
+2.1	6	EKF3 IMU0 tilt alignment complete
+2.1	6	EKF3 IMU1 tilt alignment complete
+2.2	6	EKF3 IMU0 MAG0 initial yaw alignment complete
+2.2	6	EKF3 IMU1 MAG0 initial yaw alignment complete
+6.1	6	GPS 1: probing for u-blox at 230400 baud
+6.1	6	GPS 1: detected u-blox
+13.7	2	PreArm: Rangefinder 1: No Data
+16.3	6	EKF3 IMU0 origin set
+16.3	6	Field Elevation Set: 584m
+16.5	6	EKF3 IMU1 origin set
+20.7	2	PreArm: Rangefinder 1: No Data
+37.9	6	EKF3 IMU0 is using GPS
+37.9	6	EKF3 IMU1 is using GPS
+47.7	2	PreArm: Rangefinder 1: No Data
+58.7	2	PreArm: Rangefinder 1: No Data
+# 5462 'Lua: Running ./scripts/erdi_lrf.lua' lines (SCR_DEBUG_OPTS=2 repeats) and the per-second 'Lua: Time/Mem' lines removed

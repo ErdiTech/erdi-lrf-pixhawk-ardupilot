@@ -1,0 +1,132 @@
+{
+ "case": "a",
+ "responder_latency_s": 0.8,
+ "poll_ms": 1000,
+ "duration_s": 60,
+ "params_readback": {
+  "ERDI_MODE": 1.0,
+  "ERDI_BR": 115200.0,
+  "ERDI_POLL_MS": 1000.0
+ },
+ "rate_hz": 1,
+ "frames_sent_or_replies": 47,
+ "polls_seen": 56,
+ "first_rx_bytes_hex": "55aa88ffffffff8455aa88ffffffff8455aa88ffffffff8455aa88ffffffff8455aa88ffffffff8455aa88ffffffff8455aa88ffffffff8455aa88ffffffff84",
+ "feeder_crash": null,
+ "rangefinder_msgs": 600,
+ "rangefinder_distinct_m_top": [
+  [
+   1234.5,
+   401
+  ],
+  [
+   2999.9,
+   155
+  ],
+  [
+   12.3,
+   44
+  ]
+ ],
+ "rangefinder_value_changes_first_60": [
+  [
+   0.01,
+   1234.5
+  ],
+  [
+   39.1,
+   2999.9
+  ],
+  [
+   54.6,
+   12.3
+  ],
+  [
+   59.0,
+   1234.5
+  ]
+ ],
+ "lua_runtime_us_max": 2499,
+ "lua_runtime_us_mean": 253.5,
+ "lua_runtime_samples": 5462,
+ "lua_mem_total_bytes_max": 32172,
+ "lua_mem_total_bytes_last": 31100,
+ "distance_sensor_msgs": 181,
+ "distinct_values_cm_top": [
+  [
+   65535,
+   161
+  ],
+  [
+   1230,
+   20
+  ]
+ ],
+ "value_changes_first_40": [
+  [
+   0.01,
+   65535
+  ],
+  [
+   54.6,
+   1230
+  ],
+  [
+   59.0,
+   65535
+  ]
+ ],
+ "cpu_pct_avg": 26.0,
+ "cpu_pct_max": 27.8,
+ "rss_kb_first": 9472,
+ "rss_kb_last": 9472,
+ "rss_kb_max": 9472,
+ "lua_error_statustext": [],
+ "runtime_statustext_samples": [
+  [
+   0.0,
+   7,
+   "Lua: Time: 0 Mem: 30352 + 748"
+  ],
+  [
+   0.0,
+   7,
+   "Lua: Time: 833 Mem: 30352 + 748"
+  ],
+  [
+   0.0,
+   7,
+   "Lua: Time: 0 Mem: 30352 + 748"
+  ],
+  [
+   60.0,
+   7,
+   "Lua: Time: 0 Mem: 30352 + 748"
+  ],
+  [
+   60.0,
+   7,
+   "Lua: Time: 0 Mem: 30352 + 748"
+  ],
+  [
+   60.0,
+   7,
+   "Lua: Time: 0 Mem: 30352 + 748"
+  ]
+ ],
+ "all_erdi_or_prearm_statustext_unique": [
+  "Lua: Running ./scripts/erdi_lrf.lua",
+  "Lua: Time: 0 Mem: 30352 + 748",
+  "Lua: Time: 0 Mem: 30385 + 781",
+  "Lua: Time: 0 Mem: 30888 + 1284",
+  "Lua: Time: 1666 Mem: 30352 + 748",
+  "Lua: Time: 1666 Mem: 30385 + 781",
+  "Lua: Time: 1666 Mem: 30888 + 1284",
+  "Lua: Time: 2499 Mem: 30352 + 748",
+  "Lua: Time: 2499 Mem: 30888 + 1284",
+  "Lua: Time: 833 Mem: 30352 + 748",
+  "Lua: Time: 833 Mem: 30385 + 781",
+  "Lua: Time: 833 Mem: 30888 + 1284",
+  "PreArm: Rangefinder 1: No Data"
+ ]
+}

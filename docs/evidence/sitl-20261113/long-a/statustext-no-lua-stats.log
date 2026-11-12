@@ -1,0 +1,45 @@
+0.7	6	EKF3 IMU0 initialised
+0.7	6	EKF3 IMU1 initialised
+0.7	6	AHRS: EKF3 active
+2.1	6	EKF3 IMU0 tilt alignment complete
+2.1	6	EKF3 IMU1 tilt alignment complete
+2.2	6	EKF3 IMU0 MAG0 initial yaw alignment complete
+2.2	6	EKF3 IMU1 MAG0 initial yaw alignment complete
+6.1	6	GPS 1: probing for u-blox at 230400 baud
+6.1	6	GPS 1: detected u-blox
+16.3	6	EKF3 IMU0 origin set
+16.3	6	Field Elevation Set: 584m
+16.5	6	EKF3 IMU1 origin set
+19.7	2	PreArm: Rangefinder 1: No Data
+37.9	6	EKF3 IMU0 is using GPS
+37.9	6	EKF3 IMU1 is using GPS
+79.8	2	PreArm: Rangefinder 1: No Data
+139.4	2	PreArm: Rangefinder 1: No Data
+199.4	2	PreArm: Rangefinder 1: No Data
+260.7	2	PreArm: Rangefinder 1: No Data
+320.0	2	PreArm: Rangefinder 1: No Data
+380.1	2	PreArm: Rangefinder 1: No Data
+439.2	2	PreArm: Rangefinder 1: No Data
+499.3	2	PreArm: Rangefinder 1: No Data
+559.6	2	PreArm: Rangefinder 1: No Data
+619.6	2	PreArm: Rangefinder 1: No Data
+679.6	2	PreArm: Rangefinder 1: No Data
+739.9	2	PreArm: Rangefinder 1: No Data
+799.9	2	PreArm: Rangefinder 1: No Data
+860.0	2	PreArm: Rangefinder 1: No Data
+919.4	2	PreArm: Rangefinder 1: No Data
+979.9	2	PreArm: Rangefinder 1: No Data
+1040.0	2	PreArm: Rangefinder 1: No Data
+1100.0	2	PreArm: Rangefinder 1: No Data
+1159.8	2	PreArm: Rangefinder 1: No Data
+1220.0	2	PreArm: Rangefinder 1: No Data
+1279.5	2	PreArm: Rangefinder 1: No Data
+1339.5	2	PreArm: Rangefinder 1: No Data
+1399.2	2	PreArm: Rangefinder 1: No Data
+1459.3	2	PreArm: Rangefinder 1: No Data
+1519.3	2	PreArm: Rangefinder 1: No Data
+1579.4	2	PreArm: Rangefinder 1: No Data
+1639.4	2	PreArm: Rangefinder 1: No Data
+1699.5	2	PreArm: Rangefinder 1: No Data
+1759.4	2	PreArm: Rangefinder 1: No Data
+# 156098 'Lua: Running ./scripts/erdi_lrf.lua' lines (SCR_DEBUG_OPTS=2 repeats) and the per-second 'Lua: Time/Mem' lines removed
