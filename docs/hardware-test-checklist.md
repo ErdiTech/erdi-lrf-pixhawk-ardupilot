@@ -1,6 +1,6 @@
 # ERDI Lua rangefinder hardware-test checklist
 
-
+**Status:** draft only. Complete this checklist before describing the driver as
 tested or submitting a wiki/driver change. The implementation target is
 ArduPilot's Lua rangefinder backend (`RNGFNDx_TYPE=36`).
 
