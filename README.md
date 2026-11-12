@@ -1,5 +1,7 @@
 # ERDI laser rangefinder on Pixhawk / ArduPilot
 
+Datasheets and public prices are on the [LRF22VB page](https://erdilrf.com/models/lrf22vb/?utm_source=github&utm_medium=readme&utm_campaign=erdi-lrf-pixhawk-ardupilot) and in the [full ERDI laser rangefinder model list](https://erdilrf.com/models/?utm_source=github&utm_medium=readme&utm_campaign=erdi-lrf-pixhawk-ardupilot).
+
 How to connect an **ERDI 905 nm laser rangefinder module to a Pixhawk flight controller running ArduPilot** (Copter, Plane, Rover): wiring diagram, parameter table, a **Lua scripting driver** you can use today on stock ArduPilot, and the status of the **native driver pull request [ArduPilot/ardupilot#34983](https://github.com/ArduPilot/ardupilot/pull/34983)**. Typical uses: **drone altimeter / terrain following / precision landing** with an LRF22VB (1.5 g, 20 m) or LRF50VB, longer-range H-series modules (50 to 1500 m) for survey and inspection, and A-series modules (LRF3000A1, 1 to 3000 m).
 
 > **Status (2026-11-06).** The Lua driver passes its protocol tests but has **not been flight-tested on a flight controller**. The native driver PR is open and not merged. Bench-test with props off before any flight. Do not describe either as "supported by ArduPilot" until upstream merges and documents it.
