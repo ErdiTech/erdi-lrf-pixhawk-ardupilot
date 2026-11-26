@@ -6,6 +6,20 @@ How to connect an **ERDI 905 nm laser rangefinder module to a Pixhawk flight con
 
 > **Status (2026-11-13).** The Lua driver has been run in ArduPilot SITL (ArduCopter V4.8.0-dev) with simulated modules: LRF22VB millimetre frames, LRF1500H 5-byte frames and A-family polling, 30 minutes each with no Lua errors and flat memory (details and raw logs in [docs/evidence/sitl-20261113](docs/evidence/sitl-20261113)). It has **not** been run on a flight controller or with a real module in the loop; bench-test with props off before any flight. The native driver PR is open and not merged. Do not describe either as "supported by ArduPilot" until upstream merges and documents it.
 
+## What the range figure in the parameter table means
+
+Every ERDI range figure is measured under a stated target and visibility. When you set a rangefinder for
+altitude hold, the number that matters is not the catalogue maximum but what your module returns from
+grass, water or a tilted roof in haze. The per-model pages carry the manufacturer's condition verbatim next
+to each range, and the measurement method behind it is published:
+
+- [Model list with conditions](https://specs.erdilrf.com/models/)
+- [How the range figures are measured](https://specs.erdilrf.com/data/test-method)
+- [ArduPilot and PX4 integration notes](https://specs.erdilrf.com/guide/ardupilot-rangefinder-integration)
+
+Where a manufacturer publishes no condition for a model, that page says so rather than printing a bare
+number, so you can tell which figures are qualified and which are not before you trust one in the air.
+
 ## Option 1: Lua scripting driver (stock firmware)
 
 1. Wire the module to a free flight-controller UART ([wiring](docs/wiring.svg), diagram below).
